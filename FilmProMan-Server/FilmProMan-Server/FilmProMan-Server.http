@@ -1,0 +1,6 @@
+@FilmProMan_Server_HostAddress = http://localhost:5174
+
+GET {{FilmProMan_Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
