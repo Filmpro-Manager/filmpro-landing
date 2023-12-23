@@ -2,7 +2,6 @@
 using FilmPro_Server.Models;
 using FilmPro_Server.Data;
 using Microsoft.EntityFrameworkCore;
-using System.ComponentModel.DataAnnotations;
 
 namespace FilmPro_Server.Controllers
 {

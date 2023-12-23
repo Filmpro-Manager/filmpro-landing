@@ -3,8 +3,9 @@
     "",
     "\\FilmProMan-Server",
     "\\FilmProMan-Server\\FilmProMan-Server",
-    "\\FilmProMan-Server\\FilmProMan-Server\\Controllers"
+    "\\FilmProMan-Server\\FilmProMan-Server\\Controllers",
+    "\\FilmProMan-Server\\FilmProMan-Server\\Models"
   ],
-  "SelectedNode": "\\FilmProMan-Server\\FilmProMan-Server\\Controllers\\ClienteController.cs",
+  "SelectedNode": "\\FilmProMan-Server\\FilmProMan-Server\\Models\\Cliente.cs",
   "PreviewInSolutionExplorer": false
 }

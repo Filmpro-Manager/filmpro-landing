@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\AltierisSouza\\Desktop\\FilmPro-Server\\FilmProMan-Server\\FilmProMan-Server\\FilmProMan-Server.csproj": {}
+    "C:\\Users\\altieris\\Desktop\\FilmPro-Server\\FilmProMan-Server\\FilmProMan-Server\\FilmProMan-Server.csproj": {}
   },
   "projects": {
-    "C:\\Users\\AltierisSouza\\Desktop\\FilmPro-Server\\FilmProMan-Server\\FilmProMan-Server\\FilmProMan-Server.csproj": {
+    "C:\\Users\\altieris\\Desktop\\FilmPro-Server\\FilmProMan-Server\\FilmProMan-Server\\FilmProMan-Server.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\AltierisSouza\\Desktop\\FilmPro-Server\\FilmProMan-Server\\FilmProMan-Server\\FilmProMan-Server.csproj",
+        "projectUniqueName": "C:\\Users\\altieris\\Desktop\\FilmPro-Server\\FilmProMan-Server\\FilmProMan-Server\\FilmProMan-Server.csproj",
         "projectName": "FilmProMan-Server",
-        "projectPath": "C:\\Users\\AltierisSouza\\Desktop\\FilmPro-Server\\FilmProMan-Server\\FilmProMan-Server\\FilmProMan-Server.csproj",
-        "packagesPath": "C:\\Users\\AltierisSouza\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\AltierisSouza\\Desktop\\FilmPro-Server\\FilmProMan-Server\\FilmProMan-Server\\obj\\",
+        "projectPath": "C:\\Users\\altieris\\Desktop\\FilmPro-Server\\FilmProMan-Server\\FilmProMan-Server\\FilmProMan-Server.csproj",
+        "packagesPath": "C:\\Users\\altieris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\altieris\\Desktop\\FilmPro-Server\\FilmProMan-Server\\FilmProMan-Server\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\AltierisSouza\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\altieris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +25,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,7 +65,7 @@
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.5.0, )"
             }
           },
           "imports": [
