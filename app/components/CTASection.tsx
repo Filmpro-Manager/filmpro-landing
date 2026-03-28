@@ -45,7 +45,7 @@ export default function CTASection() {
 
         <AnimateOnScroll direction="up" delay={100}>
           <h2
-            className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mt-6 mb-6 leading-[1.1]"
+            className="text-3xl sm:text-5xl lg:text-6xl font-bold tracking-tight mt-6 mb-6 leading-[1.1]"
             style={{ letterSpacing: '-0.02em' }}
           >
             Sua empresa já evoluiu.

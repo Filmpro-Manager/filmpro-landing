@@ -89,7 +89,7 @@ export default function WhySection() {
                 um atendimento mais profissional e você tem visibilidade total da sua operação.
               </p>
 
-              <div className="mt-10 flex items-center gap-4">
+              <div className="mt-10 flex flex-wrap items-center gap-4">
                 <a
                   href="https://wa.me/5541999145537?text=Ol%C3%A1%2C+tenho+interesse+no+FilmPro%21"
                   target="_blank"

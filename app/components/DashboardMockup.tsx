@@ -124,10 +124,10 @@ export default function DashboardMockup() {
           </div>
 
           {/* Chart + table row */}
-          <div className="grid grid-cols-5 gap-3">
+          <div className="grid grid-cols-1 sm:grid-cols-5 gap-2 sm:gap-3">
             {/* Mini bar chart */}
             <div
-              className="col-span-3 rounded-xl p-3 border border-[rgba(51,133,255,0.1)]"
+              className="col-span-1 sm:col-span-3 rounded-xl p-3 border border-[rgba(51,133,255,0.1)]"
               style={{ background: 'rgba(5,15,34,0.95)' }}
             >
               <div className="text-[10px] font-semibold text-[#94B8D8] mb-3">Serviços / mês</div>
@@ -154,7 +154,7 @@ export default function DashboardMockup() {
 
             {/* Quick list */}
             <div
-              className="col-span-2 rounded-xl p-3 border border-[rgba(51,133,255,0.1)]"
+              className="col-span-1 sm:col-span-2 rounded-xl p-3 border border-[rgba(51,133,255,0.1)]"
               style={{ background: 'rgba(5,15,34,0.95)' }}
             >
               <div className="text-[10px] font-semibold text-[#94B8D8] mb-2">Últimos serviços</div>

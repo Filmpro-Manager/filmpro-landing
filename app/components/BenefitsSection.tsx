@@ -174,7 +174,7 @@ export default function BenefitsSection() {
         {/* Stats bar */}
         <AnimateOnScroll direction="up" delay={200}>
           <div
-            className="mt-16 rounded-2xl p-8 grid grid-cols-2 sm:grid-cols-4 gap-8 border"
+            className="mt-16 rounded-2xl p-5 sm:p-8 grid grid-cols-2 sm:grid-cols-4 gap-4 sm:gap-8 border"
             style={{
               background: 'linear-gradient(135deg, rgba(0,82,204,0.1) 0%, rgba(0,13,26,0.9) 50%, rgba(0,82,204,0.1) 100%)',
               borderColor: 'rgba(0,170,255,0.18)',

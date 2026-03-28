@@ -127,7 +127,7 @@ export default function HeroSection() {
           </div>
 
           {/* Right: mockup */}
-          <div className="flex-1 w-full max-w-2xl hero-mockup-animate">
+          <div className="flex-1 w-full max-w-2xl hero-mockup-animate overflow-hidden">
             <div className="relative">
               {/* Glow behind mockup */}
               <div

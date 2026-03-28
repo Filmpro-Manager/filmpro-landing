@@ -144,7 +144,7 @@ export default function ForWhoSection() {
         {/* Universal message */}
         <AnimateOnScroll direction="up" delay={200}>
           <div
-            className="mt-12 rounded-2xl p-7 flex flex-col sm:flex-row items-center justify-between gap-6 border"
+            className="mt-12 rounded-2xl p-5 sm:p-7 flex flex-col sm:flex-row items-center justify-between gap-6 border"
             style={{
               background: 'linear-gradient(135deg, rgba(0,82,204,0.12), rgba(0,13,26,0.9))',
               borderColor: 'rgba(0,170,255,0.2)',

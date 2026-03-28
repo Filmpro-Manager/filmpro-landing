@@ -137,7 +137,7 @@ export default function PainSection() {
         {/* Callout */}
         <AnimateOnScroll direction="up" delay={200}>
           <div
-            className="mt-14 rounded-2xl p-8 text-center border"
+            className="mt-14 rounded-2xl p-5 sm:p-8 text-center border"
             style={{
               background: 'linear-gradient(135deg, rgba(0,82,204,0.12) 0%, rgba(0,17,34,0.8) 100%)',
               borderColor: 'rgba(0,170,255,0.2)',
