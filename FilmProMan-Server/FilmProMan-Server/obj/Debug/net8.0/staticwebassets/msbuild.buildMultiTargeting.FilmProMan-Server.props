@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\FilmProMan-Server.props" />
-</Project>
