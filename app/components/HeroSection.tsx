@@ -1,3 +1,6 @@
+'use client';
+
+import { trackWhatsApp } from '@/app/lib/clarity';
 import DashboardMockup from './DashboardMockup';
 
 export default function HeroSection() {
@@ -89,6 +92,7 @@ export default function HeroSection() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-base py-4 px-7"
+                onClick={trackWhatsApp}
               >
                 <span className="flex items-center gap-2.5">
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import { trackWhatsApp } from '@/app/lib/clarity';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -65,6 +66,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary text-sm"
+            onClick={trackWhatsApp}
           >
             <span className="flex items-center gap-2">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -116,6 +118,7 @@ export default function Navbar() {
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary text-sm w-full justify-center"
+            onClick={trackWhatsApp}
           >
             <span className="flex items-center gap-2 justify-center">Falar no WhatsApp</span>
           </a>

@@ -1,3 +1,6 @@
+'use client';
+
+import { trackWhatsApp } from '@/app/lib/clarity';
 import AnimateOnScroll from './AnimateOnScroll';
 
 export default function CTASection() {
@@ -70,6 +73,7 @@ export default function CTASection() {
               rel="noopener noreferrer"
               className="btn-primary text-base py-4 px-8"
               style={{ boxShadow: '0 0 40px rgba(0,115,230,0.3)' }}
+              onClick={trackWhatsApp}
             >
               <span className="flex items-center gap-2.5">
                 <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">

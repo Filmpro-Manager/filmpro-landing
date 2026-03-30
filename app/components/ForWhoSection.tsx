@@ -1,3 +1,6 @@
+'use client';
+
+import { trackWhatsApp } from '@/app/lib/clarity';
 import AnimateOnScroll from './AnimateOnScroll';
 
 const segments = [
@@ -163,6 +166,7 @@ export default function ForWhoSection() {
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary flex-shrink-0"
+              onClick={trackWhatsApp}
             >
               <span className="flex items-center gap-2 whitespace-nowrap">
                 Quero experimentar

@@ -1,3 +1,6 @@
+'use client';
+
+import { trackWhatsApp } from '@/app/lib/clarity';
 import AnimateOnScroll from './AnimateOnScroll';
 
 const pillars = [
@@ -95,6 +98,7 @@ export default function WhySection() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn-primary"
+                  onClick={trackWhatsApp}
                 >
                   <span className="flex items-center gap-2">
                     Quero conhecer o FilmPro

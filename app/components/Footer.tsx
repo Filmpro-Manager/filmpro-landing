@@ -1,3 +1,7 @@
+'use client';
+
+import { trackWhatsApp } from '@/app/lib/clarity';
+
 export default function Footer() {
   const year = new Date().getFullYear();
 
@@ -60,6 +64,7 @@ export default function Footer() {
                   aria-label={social.label}
                   className="w-9 h-9 rounded-lg flex items-center justify-center text-[#4A6E8C] hover:text-[#4D9FFF] transition-all duration-200 hover:bg-[rgba(51,133,255,0.08)]"
                   style={{ border: '1px solid rgba(51,133,255,0.12)' }}
+                  onClick={() => social.label === 'WhatsApp' && trackWhatsApp()}
                 >
                   {social.icon}
                 </a>
@@ -91,6 +96,7 @@ export default function Footer() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2.5 text-sm text-[#4A6E8C] hover:text-[#4D9FFF] transition-colors group"
+                  onClick={trackWhatsApp}
                 >
                   <div
                     className="w-7 h-7 rounded-lg flex items-center justify-center group-hover:bg-[rgba(51,133,255,0.1)] transition-colors flex-shrink-0"
@@ -125,6 +131,7 @@ export default function Footer() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary text-sm py-2.5 px-4 w-full justify-center"
+                onClick={trackWhatsApp}
               >
                 <span className="flex items-center gap-1.5 justify-center">
                   Começar agora
