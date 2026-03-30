@@ -53,7 +53,8 @@ export default function HeroSection() {
             <div className="hero-headline-animate">
               <span className="section-label">
                 <span className="w-1.5 h-1.5 rounded-full bg-[#3385FF] inline-block" />
-                Sistema de Gestão para Película & PPF
+                <span className="hidden sm:inline">Sistema de Gestão para Aplicadores de Película, PPF e Envelopamento</span>
+                <span className="sm:hidden">Gestão para Aplicadores de Película</span>
               </span>
             </div>
 
